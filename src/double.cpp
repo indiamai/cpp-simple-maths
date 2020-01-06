@@ -13,7 +13,7 @@ namespace doubles {
     }
 
     int divide_round_down(double a, double b){
-        return static_cast<int>(floor(a / b));
+        return (int)(floor(a / b));
     }
 
     int divide_round_up(double a, double b){
